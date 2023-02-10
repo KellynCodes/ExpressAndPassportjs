@@ -1,4 +1,12 @@
 {
+   "name": "Passport_validation",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/KellynCodes/ExpressAndPassportjs",
+  "author": "KellynCodes",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
@@ -15,5 +23,9 @@
     "passport-facebook": "^3.0.0",
     "passport-local": "^1.0.0",
     "dotenv": "^16.0.1"
+  },
+   "engines": {
+    "node": ">=14"
   }
 }
+
